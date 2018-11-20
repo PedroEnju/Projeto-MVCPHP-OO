@@ -1,0 +1,243 @@
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   3. ControleUsuario->listaDeUsuario() C:\wamp\www\mvc-php\libs\TApp.php:65
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\ControleUsuario.php:15
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Notice:  Undefined variable: _SESSION in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[01-Nov-2016 04:11:43 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
+[01-Nov-2016 04:11:43 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[01-Nov-2016 04:11:58 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 19
+[01-Nov-2016 04:11:58 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[24-Oct-2018 00:41:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Empresa::getSituacao() in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php:23
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php(21): include_once()
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php(14): TGui->renderizar()
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleEmpresa->listaDeEmpresa(Array)
+#3 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#4 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 23
+[24-Oct-2018 00:42:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Empresa::getSituacao() in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php:23
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php(21): include_once()
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php(14): TGui->renderizar()
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleEmpresa->listaDeEmpresa(Array)
+#3 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#4 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 23
+[24-Oct-2018 01:20:17 UTC] PHP Fatal error:  Uncaught Error: Call to private method ControleUsuario::getEmpresas() from context 'TApp' in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#1 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php on line 63
+[24-Oct-2018 01:20:23 UTC] PHP Fatal error:  Uncaught Error: Call to private method ControleUsuario::getempresas() from context 'TApp' in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#1 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php on line 63
+[24-Oct-2018 01:20:24 UTC] PHP Fatal error:  Uncaught Error: Call to private method ControleUsuario::getEmpresas() from context 'TApp' in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#1 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php on line 63
+[31-Oct-2018 01:27:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\formularioUsuario.php:55
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php(21): include_once()
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleUsuario.php(25): TGui->renderizar()
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleUsuario->editar(Array)
+#3 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#4 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\formularioUsuario.php on line 55
+[10-Nov-2018 16:30:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Categoria::getId() in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\formularioCategoria.php:10
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php(21): include_once()
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleCategoria.php(30): TGui->renderizar()
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleCategoria->novo(Array)
+#3 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#4 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\formularioCategoria.php on line 10
+[10-Nov-2018 16:35:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Empresa::getId_categoria() in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoCategoria.php:59
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleCategoria.php(47): DaoCategoria->salvar(Object(Empresa))
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleCategoria->salvar(Array)
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#3 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoCategoria.php on line 59
+[10-Nov-2018 16:36:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Categoria::getStatus() in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoCategoria.php:57
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleCategoria.php(47): DaoCategoria->salvar(Object(Categoria))
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleCategoria->salvar(Array)
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#3 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoCategoria.php on line 57
+[10-Nov-2018 16:36:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Categoria::getStatus() in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoCategoria.php:57
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleCategoria.php(47): DaoCategoria->salvar(Object(Categoria))
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleCategoria->salvar(Array)
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#3 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoCategoria.php on line 57
+[10-Nov-2018 16:36:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Categoria::getStatus() in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoCategoria.php:57
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleCategoria.php(47): DaoCategoria->salvar(Object(Categoria))
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleCategoria->salvar(Array)
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#3 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoCategoria.php on line 57
+[10-Nov-2018 16:36:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Categoria::getId() in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeCategoria.php:21
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php(21): include_once()
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleCategoria.php(14): TGui->renderizar()
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleCategoria->listaDeCategoria(Array)
+#3 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#4 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeCategoria.php on line 21
+[10-Nov-2018 16:38:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Categoria::getNome() in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoCategoria.php:56
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleCategoria.php(47): DaoCategoria->salvar(Object(Categoria))
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleCategoria->salvar(Array)
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#3 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoCategoria.php on line 56
+[10-Nov-2018 16:40:03 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:40:03 UTC] PHP Stack trace:
+[10-Nov-2018 16:40:03 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:40:03 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:40:03 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:40:03 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:40:03 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:40:03 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:40:03 UTC] PHP Stack trace:
+[10-Nov-2018 16:40:03 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:40:03 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:40:03 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:40:03 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:40:03 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:40:03 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:40:03 UTC] PHP Stack trace:
+[10-Nov-2018 16:40:03 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:40:03 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:40:03 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:40:03 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:40:03 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:40:03 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:40:04 UTC] PHP Stack trace:
+[10-Nov-2018 16:40:04 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:40:04 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:40:04 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:40:04 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:40:04 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:40:09 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:40:09 UTC] PHP Stack trace:
+[10-Nov-2018 16:40:09 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:40:09 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:40:09 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:40:09 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:40:09 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:40:09 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:40:09 UTC] PHP Stack trace:
+[10-Nov-2018 16:40:09 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:40:09 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:40:09 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:40:09 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:40:09 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:40:09 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:40:09 UTC] PHP Stack trace:
+[10-Nov-2018 16:40:09 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:40:09 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:40:09 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:40:09 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:40:09 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:40:09 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:40:09 UTC] PHP Stack trace:
+[10-Nov-2018 16:40:09 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:40:09 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:40:09 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:40:09 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:40:09 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:41:00 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:41:00 UTC] PHP Stack trace:
+[10-Nov-2018 16:41:00 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:41:00 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:41:00 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:41:00 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:41:00 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:41:00 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:41:00 UTC] PHP Stack trace:
+[10-Nov-2018 16:41:00 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:41:00 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:41:00 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:41:00 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:41:00 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:41:00 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:41:00 UTC] PHP Stack trace:
+[10-Nov-2018 16:41:00 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:41:00 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:41:00 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:41:00 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:41:00 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:41:05 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:41:05 UTC] PHP Stack trace:
+[10-Nov-2018 16:41:05 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:41:05 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:41:05 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:41:05 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:41:05 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:41:05 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:41:05 UTC] PHP Stack trace:
+[10-Nov-2018 16:41:05 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:41:05 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:41:05 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:41:05 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:41:05 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 16:41:10 UTC] PHP Notice:  Undefined index:  in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\listaDeEmpresa.php on line 25
+[10-Nov-2018 16:41:10 UTC] PHP Stack trace:
+[10-Nov-2018 16:41:10 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 16:41:10 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 16:41:10 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 16:41:10 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleEmpresa.php:14
+[10-Nov-2018 16:41:10 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 17:33:59 UTC] PHP Notice:  Undefined variable: emp in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\formularioProduto.php on line 45
+[10-Nov-2018 17:33:59 UTC] PHP Stack trace:
+[10-Nov-2018 17:33:59 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 17:33:59 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 17:33:59 UTC] PHP   3. ControleProduto->novo() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 17:33:59 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleProduto.php:37
+[10-Nov-2018 17:33:59 UTC] PHP   5. include_once() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php:21
+[10-Nov-2018 17:33:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\formularioProduto.php:45
+Stack trace:
+#0 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TGui.php(21): include_once()
+#1 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleProduto.php(37): TGui->renderizar()
+#2 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php(63): ControleProduto->novo(Array)
+#3 C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php(37): TApp->executar()
+#4 {main}
+  thrown in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\gui\formularioProduto.php on line 45
+[10-Nov-2018 17:40:58 UTC] PHP Fatal error:  Only variables can be passed by reference in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoProduto.php on line 64
+[10-Nov-2018 17:40:58 UTC] PHP Stack trace:
+[10-Nov-2018 17:40:58 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 17:40:58 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 17:40:58 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 17:40:58 UTC] PHP   4. __autoload() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleProduto.php:72
+[10-Nov-2018 17:41:23 UTC] PHP Fatal error:  Only variables can be passed by reference in C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\dao\DaoProduto.php on line 64
+[10-Nov-2018 17:41:23 UTC] PHP Stack trace:
+[10-Nov-2018 17:41:23 UTC] PHP   1. {main}() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:0
+[10-Nov-2018 17:41:23 UTC] PHP   2. TApp->executar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\public\index.php:37
+[10-Nov-2018 17:41:23 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\libs\TApp.php:63
+[10-Nov-2018 17:41:23 UTC] PHP   4. __autoload() C:\wamp64\www\Orientado-Objeto\Aula-0210-OO\MVC-PHP\to\ControleProduto.php:72

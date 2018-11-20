@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/10/2016, 19:37:24
+    Author     : abarbosa
+*/
+
+#image-holder img {
+    height: 120px;
+    width: auto;
+}
+.thumb {
+    width: 80px;
+    height: auto;
+}
+#imgwrap img {
+    width: 200px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+nav.menu-principal {
+    display: block;
+    width: 100%;
+}
+nav.menu-principal ul, nav.menu-principal ul li {
+    display: block;
+    list-style: none;
+}
+nav.menu-principal ul li {
+    display: inline-block;
+}
+.item-menu {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: #eee;
+    font-size: 25px;
+    color: #333;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px #333;
+    -moz-box-shadow: 2px 2px 5px #333;
+    -webkit-box-shadow: 2px 2px 5px #333;
+    transition: all ease-in-out .7s;
+}
+.item-menu:hover {
+    transform: scale(1.2,1.2) rotate(-2.7deg);
+    background-color: #efe;
+    color: #fff;
+}
+/*
+.item-menu:nth-child(odd):hover {
+    transform: scale(1.2,1.2) rotate(2.7deg);
+    background-color: #efe;
+    color: #fff;
+}
+*/
+.item-menu a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #333;
+    padding-top: 75px;
+}
